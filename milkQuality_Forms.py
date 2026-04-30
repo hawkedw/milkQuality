@@ -971,13 +971,18 @@ def push_sheet(wb, sheet_name: str, fields, url: str):
         except Exception as ex:
             log(f"dirty debug read failed: {ex}")
 
+        # FIX: строим col_to_name по позиции в fields, чтобы корректно маппить
+        # поля с одинаковым alias (например, все "Оценка, балл" в Форме 5).
+        # alias_to_name оставляем как fallback для F1/F2.
         alias_to_name = {}
         name_to_type = {}
-        for f in fields:
+        col_to_name = {}  # col_index (1-based) -> field_name
+        for i, f in enumerate(fields, start=1):
             n = f.get("n")
             al = f.get("alias")
             if n:
                 name_to_type[n] = f.get("type")
+                col_to_name[i] = n
             if n and al:
                 alias_to_name[al] = n
 
@@ -1028,7 +1033,9 @@ def push_sheet(wb, sheet_name: str, fields, url: str):
                 if alias in ("OBJECTID", "GlobalID") or alias == oid_field:
                     continue
 
-                name = alias_to_name.get(alias)
+                # FIX: col_to_name — точный маппинг по позиции (для F5 с дублирующимися alias).
+                # Fallback на alias_to_name для F1/F2 где alias уникальны.
+                name = col_to_name.get(c) or alias_to_name.get(alias)
                 if not name or name.lower() in SYS_SKIP:
                     continue
 
