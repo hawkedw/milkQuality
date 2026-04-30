@@ -1,0 +1,473 @@
+[2026-04-30 09:19:11] === milkQuality START ===
+[2026-04-30 09:19:11] action_raw=import_f5 action=import_f5 workbook=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.xlsm
+[2026-04-30 09:19:11] py_file=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.py
+[2026-04-30 09:19:11] python=C:\Python311\python.exe
+[2026-04-30 09:19:11] cwd=C:\Users\o.vetrova\Documents
+[2026-04-30 09:19:11] Starting query for Форма 5...
+[2026-04-30 09:19:11] query_layer page: got 52 features, total 52, exceeded=None
+[2026-04-30 09:19:11] Query complete: 52 features loaded
+[2026-04-30 09:19:11] Sorting by dateForm5 DESC...
+[2026-04-30 09:19:11] Date range: NEWEST=1777410000000, OLDEST=1761069600000
+[2026-04-30 09:19:11] Starting write_sheet for Форма 5...
+[2026-04-30 09:19:11] write_sheet START: sheet=Форма 5 features=52 fields=120
+[2026-04-30 09:19:11] Форма 5: ProtectContents=False, ProtectDrawingObjects=False
+[2026-04-30 09:19:12] Preparing data: 52 rows x 120 cols...
+[2026-04-30 09:19:12] DATE col 3 'dateForm5': ArcGIS=1777410000000 (int), Excel=46141.0 (float)
+[2026-04-30 09:19:12] DATE col 117 'created_date': ArcGIS=1777458313000 (int), Excel=46141.55917824074 (float)
+[2026-04-30 09:19:12] DATE col 119 'last_edited_date': ArcGIS=1777476105000 (int), Excel=46141.76510416667 (float)
+[2026-04-30 09:19:12] ⚙ formatting col 1 'personal_name' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 2 'cattle_complex_parent' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 3 'dateForm5' type=DATE
+[2026-04-30 09:19:12] ✓ col 3 'dateForm5' fmt='ДД.ММ.ГГГГ'
+[2026-04-30 09:19:12]   col 3 row 4 Text='29.04.2026'
+[2026-04-30 09:19:12] ⚙ formatting col 4 'counteragents' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 5 'method' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 6 'method_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 7 'brand' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 8 'brand_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 9 'logBook' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 10 'logBook_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 11 'dishes' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 12 'dishes_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 13 'logBook_logs' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 14 'logBook_logs_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 15 'reagentsAcid' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 16 'reagentsAcid_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 17 'reagentsAlco' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 18 'reagentsAlco_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 19 'equipment' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 20 'equipment_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 21 'thermometers' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 22 'thermometers_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 23 'temperature' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 24 'temperature_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 25 'thermometersMaintenance' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 26 'thermometersMaintenance_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 27 'temperatureLogbook' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 28 'temperatureLogbook_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 29 'shipmentTemperature' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 30 'shipmentTemperature_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 31 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 32 'sanitaryCondition' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 33 'sanitaryCondition_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 34 'storingRules' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 35 'storingRules_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 36 'milkStirring' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 37 'milkStirring_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 38 'tankerSealsInspection' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 39 'tankerSealsInspection_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 40 'cleanlinessCheck' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 41 'cleanlinessCheck_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 42 'closedDrainValve' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 43 'closedDrainValve_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 44 'washingSheet' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 45 'washingSheet_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 46 'waybill' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 47 'waybill_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 48 'calibration' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 49 'calibration_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 50 'powerOfAttorney' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 51 'powerOfAttorney_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 52 'nonConformityReport' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 53 'nonConformityReport_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 54 'invoiceCopy' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 55 'invoiceCopy_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 56 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 57 'loadingControl' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 58 'loadingControl_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 59 'sealIntegrityConfirmed' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 60 'sealIntegrityConfirmed_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 61 'specializedEquipment' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 62 'specializedEquipment_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 63 'samplingEquipment' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 64 'samplingEquipment_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 65 'sampledBy' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 66 'sampledBy_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 67 'sampleContainerVolume' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 68 'sampleContainerVolume_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 69 'controlSampleStorage' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 70 'controlSampleStorage_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 71 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 72 'analyzerName' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 73 'analyzerName_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 74 'printer' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 75 'printer_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 76 'washRegimeCompliant' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 77 'washRegimeCompliant_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 78 'washInstructionVersion' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 79 'washInstructionVersion_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 80 'measurementProcedureNotes' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 81 'measurementProcedureNotes_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 82 'milkShipmentControlLog' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 83 'milkShipmentControlLog_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 84 'replicateDiffWithin005' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 85 'replicateDiffWithin005_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 86 'thermoReceiptStorage' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 87 'thermoReceiptStorage_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 88 'analysisResponsible' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 89 'analysisResponsible_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 90 'analyzerFat' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 91 'analyzerFat_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 92 'laboratoryFat' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 93 'laboratoryFat_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 94 'differenceFat' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 95 'differenceFat_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 96 'analyzerProtein' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 97 'analyzerProtein_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 98 'laboratoryProtein' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 99 'laboratoryProtein_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 100 'differenceProtein' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 101 'differenceProtein_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 102 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 103 'primaryMilkMeter' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 104 'additionalMeters' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 105 'invoiceQuantityMethod' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 106 'additionalMeterQuantity' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 107 'meterDiffKg' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 108 'meterDiffKg_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 109 'conversionDensity' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 110 'conversionDensity_s' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 111 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 112 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 113 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 114 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 115 'None' type=INT
+[2026-04-30 09:19:12] ⚙ formatting col 116 'created_user' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 117 'created_date' type=DATE
+[2026-04-30 09:19:12] ✓ col 117 'created_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:19:12]   col 117 row 4 Text='29.04.2026 13:25'
+[2026-04-30 09:19:12] ⚙ formatting col 118 'last_edited_user' type=TEXT
+[2026-04-30 09:19:12] ⚙ formatting col 119 'last_edited_date' type=DATE
+[2026-04-30 09:19:12] ✓ col 119 'last_edited_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:19:12]   col 119 row 4 Text='29.04.2026 18:21'
+[2026-04-30 09:19:12] ⚙ formatting col 120 'OBJECTID' type=OID
+[2026-04-30 09:19:13] Форма 5 import complete
+[2026-04-30 09:21:16] === milkQuality START ===
+[2026-04-30 09:21:16] action_raw=submit_f5 action=submit_f5 workbook=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.xlsm
+[2026-04-30 09:21:16] py_file=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.py
+[2026-04-30 09:21:16] python=C:\Python311\python.exe
+[2026-04-30 09:21:16] cwd=C:\Users\o.vetrova\Documents
+[2026-04-30 09:21:17] header_row=3 last_row=55 last_col=121 dirty_col=121
+[2026-04-30 09:21:17] dirty_header_addr=$DQ$3 dirty_header_val='Dirty'
+[2026-04-30 09:21:17] dirty_r13_addr=$DQ$13 dirty_r13_val=False type=<class 'bool'>
+[2026-04-30 09:21:17] dirty_total=1 dirty_with_oid=1
+[2026-04-30 09:25:36] === milkQuality START ===
+[2026-04-30 09:25:36] action_raw=import_f1 action=import_f1 workbook=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.xlsm
+[2026-04-30 09:25:36] py_file=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.py
+[2026-04-30 09:25:36] python=C:\Python311\python.exe
+[2026-04-30 09:25:36] cwd=C:\Users\o.vetrova\Documents
+[2026-04-30 09:25:36] Starting query for Форма 1...
+[2026-04-30 09:25:37] query_layer page: got 2000 features, total 2000, exceeded=True
+[2026-04-30 09:25:37] query_layer page: got 2000 features, total 4000, exceeded=True
+[2026-04-30 09:25:37] query_layer page: got 2000 features, total 6000, exceeded=True
+[2026-04-30 09:25:38] query_layer page: got 2000 features, total 8000, exceeded=True
+[2026-04-30 09:25:38] query_layer page: got 2000 features, total 10000, exceeded=True
+[2026-04-30 09:25:38] query_layer page: got 2000 features, total 12000, exceeded=True
+[2026-04-30 09:25:38] query_layer page: got 1433 features, total 13433, exceeded=None
+[2026-04-30 09:25:38] Query complete: 13433 features loaded
+[2026-04-30 09:25:38] Sorting 13433 features by timeStart DESC...
+[2026-04-30 09:25:38] Date range: NEWEST=1777518000000, OLDEST=1750798800000
+[2026-04-30 09:25:38] Starting write_sheet for Форма 1...
+[2026-04-30 09:25:39] write_sheet START: sheet=Форма 1 features=13433 fields=36
+[2026-04-30 09:25:39] Форма 1: ProtectContents=False, ProtectDrawingObjects=False
+[2026-04-30 09:25:39] Preparing data: 13433 rows x 36 cols...
+[2026-04-30 09:25:39]   -> processed 5000/13433 rows...
+[2026-04-30 09:25:39]   -> processed 10000/13433 rows...
+[2026-04-30 09:25:39] DATE col 1 'timeStart': ArcGIS=1777518000000 (int), Excel=46142.25 (float)
+[2026-04-30 09:25:39] DATE col 2 'timeEnd': ArcGIS=1777523400000 (int), Excel=46142.3125 (float)
+[2026-04-30 09:25:39] DATE col 12 'timeEnd_remaining': ArcGIS=1777501800000 (int), Excel=46142.0625 (float)
+[2026-04-30 09:25:39] DATE col 31 'created_date': ArcGIS=1777525992000 (int), Excel=46142.3425 (float)
+[2026-04-30 09:25:39] DATE col 33 'last_edited_date': ArcGIS=1777525992000 (int), Excel=46142.3425 (float)
+[2026-04-30 09:25:40] ⚙ formatting col 1 'timeStart' type=DATE
+[2026-04-30 09:25:40] ✓ col 1 'timeStart' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:25:40]   col 1 row 2 Text='30.04.2026 06:00'
+[2026-04-30 09:25:40] ⚙ formatting col 2 'timeEnd' type=DATE
+[2026-04-30 09:25:40] ✓ col 2 'timeEnd' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:25:40]   col 2 row 2 Text='30.04.2026 07:30'
+[2026-04-30 09:25:40] ⚙ formatting col 3 'cattle_complex_tank' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 4 'reservoir_num' type=INT
+[2026-04-30 09:25:40] ⚙ formatting col 5 'milking_num' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 6 'milking_remaining_yesterday' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 7 'milk_weight' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 7 'milk_weight' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 8 'reservoir_num_remain_yesterd' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 9 'milking_remaining' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 10 'milk_weight_remaining' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 10 'milk_weight_remaining' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 11 'reservoir_num_remaining' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 12 'timeEnd_remaining' type=DATE
+[2026-04-30 09:25:40] ✓ col 12 'timeEnd_remaining' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:25:40]   col 12 row 2 Text='30.04.2026 01:30'
+[2026-04-30 09:25:40] ⚙ formatting col 13 'milk_fat_2' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 13 'milk_fat_2' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 14 'milk_fat_3' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 14 'milk_fat_3' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 15 'milk_protein_2' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 15 'milk_protein_2' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 16 'milk_protein_3' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 16 'milk_protein_3' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 17 'milk_acidity' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 17 'milk_acidity' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 18 'milk_density' type=INT
+[2026-04-30 09:25:40] ⚙ formatting col 19 'milk_termstab' type=INT
+[2026-04-30 09:25:40] ⚙ formatting col 20 'milk_purity' type=INT
+[2026-04-30 09:25:40] ⚙ formatting col 21 'milk_temp_sensor' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 21 'milk_temp_sensor' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 22 'milk_temp_therm' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 22 'milk_temp_therm' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 23 'milk_fat_inTank' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 23 'milk_fat_inTank' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 24 'milk_protein_inTank' type=NUMBER
+[2026-04-30 09:25:40] ✗✗✗ col 24 'milk_protein_inTank' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:25:40] ⚙ formatting col 25 'personal_name_tank' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 26 'year_tank' type=INT
+[2026-04-30 09:25:40] ⚙ formatting col 27 'month_tank' type=INT
+[2026-04-30 09:25:40] ⚙ formatting col 28 'day_tank' type=INT
+[2026-04-30 09:25:40] ⚙ formatting col 29 'joinIndex_tank' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 30 'created_user' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 31 'created_date' type=DATE
+[2026-04-30 09:25:40] ✓ col 31 'created_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:25:40]   col 31 row 2 Text='30.04.2026 08:13'
+[2026-04-30 09:25:40] ⚙ formatting col 32 'last_edited_user' type=TEXT
+[2026-04-30 09:25:40] ⚙ formatting col 33 'last_edited_date' type=DATE
+[2026-04-30 09:25:40] ✓ col 33 'last_edited_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:25:40]   col 33 row 2 Text='30.04.2026 08:13'
+[2026-04-30 09:25:40] ⚙ formatting col 34 'OBJECTID' type=OID
+[2026-04-30 09:25:40] ⚙ formatting col 35 'parentglobalid' type=GUID
+[2026-04-30 09:25:40] ⚙ formatting col 36 'GlobalID' type=GUID
+[2026-04-30 09:25:40] Форма 1 import complete
+[2026-04-30 09:26:49] === milkQuality START ===
+[2026-04-30 09:26:49] action_raw=submit_f1 action=submit_f1 workbook=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.xlsm
+[2026-04-30 09:26:49] py_file=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.py
+[2026-04-30 09:26:49] python=C:\Python311\python.exe
+[2026-04-30 09:26:49] cwd=C:\Users\o.vetrova\Documents
+[2026-04-30 09:26:49] header_row=1 last_row=13434 last_col=37 dirty_col=37
+[2026-04-30 09:26:49] dirty_header_addr=$AK$1 dirty_header_val='Dirty'
+[2026-04-30 09:26:49] dirty_r13_addr=$AK$13 dirty_r13_val=False type=<class 'bool'>
+[2026-04-30 09:26:50] dirty_total=1 dirty_with_oid=1
+[2026-04-30 09:27:53] === milkQuality START ===
+[2026-04-30 09:27:53] action_raw=import_f2 action=import_f2 workbook=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.xlsm
+[2026-04-30 09:27:53] py_file=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.py
+[2026-04-30 09:27:53] python=C:\Python311\python.exe
+[2026-04-30 09:27:53] cwd=C:\Users\o.vetrova\Documents
+[2026-04-30 09:27:53] Starting query for Форма 2...
+[2026-04-30 09:27:54] query_layer page: got 2000 features, total 2000, exceeded=True
+[2026-04-30 09:27:54] query_layer page: got 2000 features, total 4000, exceeded=True
+[2026-04-30 09:27:55] query_layer page: got 2000 features, total 6000, exceeded=True
+[2026-04-30 09:27:55] query_layer page: got 2000 features, total 8000, exceeded=True
+[2026-04-30 09:27:55] query_layer page: got 2000 features, total 10000, exceeded=True
+[2026-04-30 09:27:56] query_layer page: got 2000 features, total 12000, exceeded=True
+[2026-04-30 09:27:56] query_layer page: got 2000 features, total 14000, exceeded=True
+[2026-04-30 09:27:56] query_layer page: got 2000 features, total 16000, exceeded=True
+[2026-04-30 09:27:57] query_layer page: got 2000 features, total 18000, exceeded=True
+[2026-04-30 09:27:57] query_layer page: got 2000 features, total 20000, exceeded=True
+[2026-04-30 09:27:58] query_layer page: got 2000 features, total 22000, exceeded=True
+[2026-04-30 09:27:58] query_layer page: got 2000 features, total 24000, exceeded=True
+[2026-04-30 09:27:58] query_layer page: got 2000 features, total 26000, exceeded=True
+[2026-04-30 09:27:59] query_layer page: got 2000 features, total 28000, exceeded=True
+[2026-04-30 09:27:59] query_layer page: got 2000 features, total 30000, exceeded=True
+[2026-04-30 09:28:00] query_layer page: got 2000 features, total 32000, exceeded=True
+[2026-04-30 09:28:00] query_layer page: got 2000 features, total 34000, exceeded=True
+[2026-04-30 09:28:00] query_layer page: got 2000 features, total 36000, exceeded=True
+[2026-04-30 09:28:01] query_layer page: got 2000 features, total 38000, exceeded=True
+[2026-04-30 09:28:01] query_layer page: got 2000 features, total 40000, exceeded=True
+[2026-04-30 09:28:02] query_layer page: got 2000 features, total 42000, exceeded=True
+[2026-04-30 09:28:02] query_layer page: got 2000 features, total 44000, exceeded=True
+[2026-04-30 09:28:02] query_layer page: got 2000 features, total 46000, exceeded=True
+[2026-04-30 09:28:03] query_layer page: got 2000 features, total 48000, exceeded=True
+[2026-04-30 09:28:03] query_layer page: got 2000 features, total 50000, exceeded=True
+[2026-04-30 09:28:03] query_layer page: got 89 features, total 50089, exceeded=None
+[2026-04-30 09:28:03] Query complete: 50089 features loaded
+[2026-04-30 09:28:03] Sorting 50089 features by milktruk_departure_time DESC...
+[2026-04-30 09:28:04] Date range: NEWEST=1777530000000, OLDEST=1750832400000
+[2026-04-30 09:28:04] Starting write_sheet for Форма 2...
+[2026-04-30 09:28:04] write_sheet START: sheet=Форма 2 features=50089 fields=32
+[2026-04-30 09:28:04] Форма 2: ProtectContents=False, ProtectDrawingObjects=False
+[2026-04-30 09:28:04] Preparing data: 50089 rows x 32 cols...
+[2026-04-30 09:28:04]   -> processed 5000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 10000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 15000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 20000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 25000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 30000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 35000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 40000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 45000/50089 rows...
+[2026-04-30 09:28:04]   -> processed 50000/50089 rows...
+[2026-04-30 09:28:04] DATE col 1 'milktruk_departure_time': ArcGIS=1777530000000 (int), Excel=46142.38888888889 (float)
+[2026-04-30 09:28:04] DATE col 27 'created_date': ArcGIS=1777529607000 (int), Excel=46142.38434027778 (float)
+[2026-04-30 09:28:04] DATE col 29 'last_edited_date': ArcGIS=1777529607000 (int), Excel=46142.38434027778 (float)
+[2026-04-30 09:28:06] ⚙ formatting col 1 'milktruk_departure_time' type=DATE
+[2026-04-30 09:28:06] ✓ col 1 'milktruk_departure_time' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:28:06]   col 1 row 2 Text='30.04.2026 09:20'
+[2026-04-30 09:28:06] ⚙ formatting col 2 'cattle_complex_milktruk' type=TEXT
+[2026-04-30 09:28:06] ⚙ formatting col 3 'counteragent_milktruk' type=TEXT
+[2026-04-30 09:28:06] ⚙ formatting col 4 'invoice_parent' type=TEXT
+[2026-04-30 09:28:06] ⚙ formatting col 5 'milktruk_section_num' type=INT
+[2026-04-30 09:28:06] ⚙ formatting col 6 'milk_fat_invoice' type=NUMBER
+[2026-04-30 09:28:06] ✗✗✗ col 6 'milk_fat_invoice' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:06] ⚙ formatting col 7 'milk_fat_milkfactory' type=NUMBER
+[2026-04-30 09:28:06] ✗✗✗ col 7 'milk_fat_milkfactory' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:06] ⚙ formatting col 8 'milk_fat_difference' type=NUMBER
+[2026-04-30 09:28:06] ✗✗✗ col 8 'milk_fat_difference' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:06] ⚙ formatting col 9 'milk_protein_invoice' type=NUMBER
+[2026-04-30 09:28:06] ✗✗✗ col 9 'milk_protein_invoice' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 10 'milk_protein_milkfactory' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 10 'milk_protein_milkfactory' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 11 'milk_protein_difference' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 11 'milk_protein_difference' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 12 'milk_weight_ekoniva' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 12 'milk_weight_ekoniva' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 13 'milk_weight_milkfactory' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 13 'milk_weight_milkfactory' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 14 'milk_weight_difference' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 14 'milk_weight_difference' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 15 'reservoir_num_1' type=INT
+[2026-04-30 09:28:07] ⚙ formatting col 16 'reservoir_num_2' type=INT
+[2026-04-30 09:28:07] ⚙ formatting col 17 'milk_fat_2' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 17 'milk_fat_2' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 18 'milk_fat_3' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 18 'milk_fat_3' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 19 'milk_protein_2' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 19 'milk_protein_2' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 20 'milk_protein_3' type=NUMBER
+[2026-04-30 09:28:07] ✗✗✗ col 20 'milk_protein_3' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:28:07] ⚙ formatting col 21 'personal_name_milktruk' type=TEXT
+[2026-04-30 09:28:07] ⚙ formatting col 22 'year_milktruk' type=INT
+[2026-04-30 09:28:07] ⚙ formatting col 23 'month_milktruk' type=INT
+[2026-04-30 09:28:07] ⚙ formatting col 24 'day_milktruk' type=INT
+[2026-04-30 09:28:07] ⚙ formatting col 25 'joinIndex_milktruk' type=TEXT
+[2026-04-30 09:28:07] ⚙ formatting col 26 'created_user' type=TEXT
+[2026-04-30 09:28:07] ⚙ formatting col 27 'created_date' type=DATE
+[2026-04-30 09:28:07] ✓ col 27 'created_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:28:07]   col 27 row 2 Text='30.04.2026 09:13'
+[2026-04-30 09:28:07] ⚙ formatting col 28 'last_edited_user' type=TEXT
+[2026-04-30 09:28:07] ⚙ formatting col 29 'last_edited_date' type=DATE
+[2026-04-30 09:28:07] ✓ col 29 'last_edited_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:28:07]   col 29 row 2 Text='30.04.2026 09:13'
+[2026-04-30 09:28:07] ⚙ formatting col 30 'OBJECTID' type=OID
+[2026-04-30 09:28:07] ⚙ formatting col 31 'GlobalID' type=GUID
+[2026-04-30 09:28:07] ⚙ formatting col 32 'parentglobalid' type=GUID
+[2026-04-30 09:28:07] Форма 2 import complete
+[2026-04-30 09:28:40] === milkQuality START ===
+[2026-04-30 09:28:40] action_raw=submit_f2 action=submit_f2 workbook=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.xlsm
+[2026-04-30 09:28:40] py_file=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.py
+[2026-04-30 09:28:40] python=C:\Python311\python.exe
+[2026-04-30 09:28:40] cwd=C:\Users\o.vetrova\Documents
+[2026-04-30 09:28:41] header_row=1 last_row=50090 last_col=33 dirty_col=33
+[2026-04-30 09:28:41] dirty_header_addr=$AG$1 dirty_header_val='Dirty'
+[2026-04-30 09:28:41] dirty_r13_addr=$AG$13 dirty_r13_val=False type=<class 'bool'>
+[2026-04-30 09:28:41] dirty_total=1 dirty_with_oid=1
+[2026-04-30 09:30:15] === milkQuality START ===
+[2026-04-30 09:30:15] action_raw=import_f2 action=import_f2 workbook=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.xlsm
+[2026-04-30 09:30:15] py_file=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.py
+[2026-04-30 09:30:15] python=C:\Python311\python.exe
+[2026-04-30 09:30:15] cwd=C:\Users\o.vetrova\Documents
+[2026-04-30 09:30:15] Starting query for Форма 2...
+[2026-04-30 09:30:16] query_layer page: got 2000 features, total 2000, exceeded=True
+[2026-04-30 09:30:16] query_layer page: got 2000 features, total 4000, exceeded=True
+[2026-04-30 09:30:17] query_layer page: got 2000 features, total 6000, exceeded=True
+[2026-04-30 09:30:17] query_layer page: got 2000 features, total 8000, exceeded=True
+[2026-04-30 09:30:17] query_layer page: got 2000 features, total 10000, exceeded=True
+[2026-04-30 09:30:18] query_layer page: got 2000 features, total 12000, exceeded=True
+[2026-04-30 09:30:18] query_layer page: got 2000 features, total 14000, exceeded=True
+[2026-04-30 09:30:19] query_layer page: got 2000 features, total 16000, exceeded=True
+[2026-04-30 09:30:19] query_layer page: got 2000 features, total 18000, exceeded=True
+[2026-04-30 09:30:21] query_layer page: got 2000 features, total 20000, exceeded=True
+[2026-04-30 09:30:22] query_layer page: got 2000 features, total 22000, exceeded=True
+[2026-04-30 09:30:22] query_layer page: got 2000 features, total 24000, exceeded=True
+[2026-04-30 09:30:23] query_layer page: got 2000 features, total 26000, exceeded=True
+[2026-04-30 09:30:24] query_layer page: got 2000 features, total 28000, exceeded=True
+[2026-04-30 09:30:24] query_layer page: got 2000 features, total 30000, exceeded=True
+[2026-04-30 09:30:25] query_layer page: got 2000 features, total 32000, exceeded=True
+[2026-04-30 09:30:25] query_layer page: got 2000 features, total 34000, exceeded=True
+[2026-04-30 09:30:25] query_layer page: got 2000 features, total 36000, exceeded=True
+[2026-04-30 09:30:26] query_layer page: got 2000 features, total 38000, exceeded=True
+[2026-04-30 09:30:26] query_layer page: got 2000 features, total 40000, exceeded=True
+[2026-04-30 09:30:27] query_layer page: got 2000 features, total 42000, exceeded=True
+[2026-04-30 09:30:27] query_layer page: got 2000 features, total 44000, exceeded=True
+[2026-04-30 09:30:28] query_layer page: got 2000 features, total 46000, exceeded=True
+[2026-04-30 09:30:28] query_layer page: got 2000 features, total 48000, exceeded=True
+[2026-04-30 09:30:29] query_layer page: got 2000 features, total 50000, exceeded=True
+[2026-04-30 09:30:29] query_layer page: got 89 features, total 50089, exceeded=None
+[2026-04-30 09:30:29] Query complete: 50089 features loaded
+[2026-04-30 09:30:29] Sorting 50089 features by milktruk_departure_time DESC...
+[2026-04-30 09:30:29] Date range: NEWEST=1777540800000, OLDEST=1750832400000
+[2026-04-30 09:30:29] Starting write_sheet for Форма 2...
+[2026-04-30 09:30:29] write_sheet START: sheet=Форма 2 features=50089 fields=32
+[2026-04-30 09:30:29] Форма 2: ProtectContents=False, ProtectDrawingObjects=False
+[2026-04-30 09:30:29] Preparing data: 50089 rows x 32 cols...
+[2026-04-30 09:30:29]   -> processed 5000/50089 rows...
+[2026-04-30 09:30:29]   -> processed 10000/50089 rows...
+[2026-04-30 09:30:29]   -> processed 15000/50089 rows...
+[2026-04-30 09:30:29]   -> processed 20000/50089 rows...
+[2026-04-30 09:30:29]   -> processed 25000/50089 rows...
+[2026-04-30 09:30:29]   -> processed 30000/50089 rows...
+[2026-04-30 09:30:29]   -> processed 35000/50089 rows...
+[2026-04-30 09:30:29]   -> processed 40000/50089 rows...
+[2026-04-30 09:30:30]   -> processed 45000/50089 rows...
+[2026-04-30 09:30:30]   -> processed 50000/50089 rows...
+[2026-04-30 09:30:30] DATE col 1 'milktruk_departure_time': ArcGIS=1777540800000 (int), Excel=46142.51388888889 (float)
+[2026-04-30 09:30:30] DATE col 27 'created_date': ArcGIS=1777529607000 (int), Excel=46142.38434027778 (float)
+[2026-04-30 09:30:30] DATE col 29 'last_edited_date': ArcGIS=1777530522000 (int), Excel=46142.39493055556 (float)
+[2026-04-30 09:30:32] ⚙ formatting col 1 'milktruk_departure_time' type=DATE
+[2026-04-30 09:30:32] ✓ col 1 'milktruk_departure_time' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:30:32]   col 1 row 2 Text='30.04.2026 12:20'
+[2026-04-30 09:30:32] ⚙ formatting col 2 'cattle_complex_milktruk' type=TEXT
+[2026-04-30 09:30:32] ⚙ formatting col 3 'counteragent_milktruk' type=TEXT
+[2026-04-30 09:30:32] ⚙ formatting col 4 'invoice_parent' type=TEXT
+[2026-04-30 09:30:32] ⚙ formatting col 5 'milktruk_section_num' type=INT
+[2026-04-30 09:30:32] ⚙ formatting col 6 'milk_fat_invoice' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 6 'milk_fat_invoice' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 7 'milk_fat_milkfactory' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 7 'milk_fat_milkfactory' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 8 'milk_fat_difference' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 8 'milk_fat_difference' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 9 'milk_protein_invoice' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 9 'milk_protein_invoice' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 10 'milk_protein_milkfactory' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 10 'milk_protein_milkfactory' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 11 'milk_protein_difference' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 11 'milk_protein_difference' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 12 'milk_weight_ekoniva' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 12 'milk_weight_ekoniva' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 13 'milk_weight_milkfactory' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 13 'milk_weight_milkfactory' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 14 'milk_weight_difference' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 14 'milk_weight_difference' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 15 'reservoir_num_1' type=INT
+[2026-04-30 09:30:32] ⚙ formatting col 16 'reservoir_num_2' type=INT
+[2026-04-30 09:30:32] ⚙ formatting col 17 'milk_fat_2' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 17 'milk_fat_2' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 18 'milk_fat_3' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 18 'milk_fat_3' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 19 'milk_protein_2' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 19 'milk_protein_2' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 20 'milk_protein_3' type=NUMBER
+[2026-04-30 09:30:32] ✗✗✗ col 20 'milk_protein_3' CRASH: (-2147352567, 'Ошибка.', (0, 'Microsoft Excel', 'Нельзя установить свойство NumberFormat класса Range', 'xlmain11.chm', 0, -2146827284), None)
+[2026-04-30 09:30:32] ⚙ formatting col 21 'personal_name_milktruk' type=TEXT
+[2026-04-30 09:30:32] ⚙ formatting col 22 'year_milktruk' type=INT
+[2026-04-30 09:30:32] ⚙ formatting col 23 'month_milktruk' type=INT
+[2026-04-30 09:30:32] ⚙ formatting col 24 'day_milktruk' type=INT
+[2026-04-30 09:30:32] ⚙ formatting col 25 'joinIndex_milktruk' type=TEXT
+[2026-04-30 09:30:32] ⚙ formatting col 26 'created_user' type=TEXT
+[2026-04-30 09:30:32] ⚙ formatting col 27 'created_date' type=DATE
+[2026-04-30 09:30:32] ✓ col 27 'created_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:30:32]   col 27 row 2 Text='30.04.2026 09:13'
+[2026-04-30 09:30:32] ⚙ formatting col 28 'last_edited_user' type=TEXT
+[2026-04-30 09:30:32] ⚙ formatting col 29 'last_edited_date' type=DATE
+[2026-04-30 09:30:32] ✓ col 29 'last_edited_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:30:32]   col 29 row 2 Text='30.04.2026 09:28'
+[2026-04-30 09:30:32] ⚙ formatting col 30 'OBJECTID' type=OID
+[2026-04-30 09:30:32] ⚙ formatting col 31 'GlobalID' type=GUID
+[2026-04-30 09:30:32] ⚙ formatting col 32 'parentglobalid' type=GUID
+[2026-04-30 09:30:32] Форма 2 import complete
+[2026-04-30 09:31:00] === milkQuality START ===
+[2026-04-30 09:31:00] action_raw=submit_f2 action=submit_f2 workbook=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.xlsm
+[2026-04-30 09:31:00] py_file=C:\Users\o.vetrova\Desktop\Survey\milkQuality_Forms.py
+[2026-04-30 09:31:00] python=C:\Python311\python.exe
+[2026-04-30 09:31:00] cwd=C:\Users\o.vetrova\Documents
+[2026-04-30 09:31:01] header_row=1 last_row=50090 last_col=33 dirty_col=33
+[2026-04-30 09:31:01] dirty_header_addr=$AG$1 dirty_header_val='Dirty'
+[2026-04-30 09:31:01] dirty_r13_addr=$AG$13 dirty_r13_val=False type=<class 'bool'>
+[2026-04-30 09:31:02] dirty_total=1 dirty_with_oid=1
