@@ -1,0 +1,143 @@
+[2026-04-30 08:59:59] === milkQuality START ===
+[2026-04-30 08:59:59] action_raw=import_f5 action=import_f5 workbook=F:\tables\milkQuality\milkQuality_Forms.xlsm
+[2026-04-30 08:59:59] py_file=F:\tables\milkQuality\milkQuality_Forms.py
+[2026-04-30 08:59:59] python=C:\Python311\python.exe
+[2026-04-30 08:59:59] cwd=C:\Users\Hawke\Documents
+[2026-04-30 08:59:59] Starting query for Форма 5...
+[2026-04-30 08:59:59] query_layer page: got 52 features, total 52, exceeded=None
+[2026-04-30 08:59:59] Query complete: 52 features loaded
+[2026-04-30 08:59:59] Sorting by dateForm5 DESC...
+[2026-04-30 08:59:59] Date range: NEWEST=1777410000000, OLDEST=1761069600000
+[2026-04-30 08:59:59] Starting write_sheet for Форма 5...
+[2026-04-30 08:59:59] write_sheet START: sheet=Форма 5 features=52 fields=120
+[2026-04-30 08:59:59] Форма 5: ProtectContents=False, ProtectDrawingObjects=False
+[2026-04-30 09:00:00] Preparing data: 52 rows x 120 cols...
+[2026-04-30 09:00:00] DATE col 3 'dateForm5': ArcGIS=1777410000000 (int), Excel=46141.0 (float)
+[2026-04-30 09:00:00] DATE col 117 'created_date': ArcGIS=1777458313000 (int), Excel=46141.55917824074 (float)
+[2026-04-30 09:00:00] DATE col 119 'last_edited_date': ArcGIS=1777476105000 (int), Excel=46141.76510416667 (float)
+[2026-04-30 09:00:00] ⚙ formatting col 1 'personal_name' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 2 'cattle_complex_parent' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 3 'dateForm5' type=DATE
+[2026-04-30 09:00:00] ✓ col 3 'dateForm5' fmt='ДД.ММ.ГГГГ'
+[2026-04-30 09:00:00]   col 3 row 4 Text='29.04.2026'
+[2026-04-30 09:00:00] ⚙ formatting col 4 'counteragents' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 5 'method' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 6 'method_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 7 'brand' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 8 'brand_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 9 'logBook' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 10 'logBook_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 11 'dishes' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 12 'dishes_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 13 'logBook_logs' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 14 'logBook_logs_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 15 'reagentsAcid' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 16 'reagentsAcid_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 17 'reagentsAlco' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 18 'reagentsAlco_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 19 'equipment' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 20 'equipment_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 21 'thermometers' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 22 'thermometers_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 23 'temperature' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 24 'temperature_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 25 'thermometersMaintenance' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 26 'thermometersMaintenance_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 27 'temperatureLogbook' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 28 'temperatureLogbook_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 29 'shipmentTemperature' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 30 'shipmentTemperature_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 31 'None' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 32 'sanitaryCondition' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 33 'sanitaryCondition_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 34 'storingRules' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 35 'storingRules_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 36 'milkStirring' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 37 'milkStirring_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 38 'tankerSealsInspection' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 39 'tankerSealsInspection_s' type=INT
+[2026-04-30 09:00:00] ⚙ formatting col 40 'cleanlinessCheck' type=TEXT
+[2026-04-30 09:00:00] ⚙ formatting col 41 'cleanlinessCheck_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 42 'closedDrainValve' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 43 'closedDrainValve_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 44 'washingSheet' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 45 'washingSheet_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 46 'waybill' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 47 'waybill_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 48 'calibration' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 49 'calibration_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 50 'powerOfAttorney' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 51 'powerOfAttorney_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 52 'nonConformityReport' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 53 'nonConformityReport_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 54 'invoiceCopy' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 55 'invoiceCopy_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 56 'None' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 57 'loadingControl' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 58 'loadingControl_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 59 'sealIntegrityConfirmed' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 60 'sealIntegrityConfirmed_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 61 'specializedEquipment' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 62 'specializedEquipment_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 63 'samplingEquipment' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 64 'samplingEquipment_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 65 'sampledBy' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 66 'sampledBy_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 67 'sampleContainerVolume' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 68 'sampleContainerVolume_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 69 'controlSampleStorage' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 70 'controlSampleStorage_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 71 'None' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 72 'analyzerName' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 73 'analyzerName_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 74 'printer' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 75 'printer_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 76 'washRegimeCompliant' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 77 'washRegimeCompliant_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 78 'washInstructionVersion' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 79 'washInstructionVersion_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 80 'measurementProcedureNotes' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 81 'measurementProcedureNotes_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 82 'milkShipmentControlLog' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 83 'milkShipmentControlLog_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 84 'replicateDiffWithin005' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 85 'replicateDiffWithin005_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 86 'thermoReceiptStorage' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 87 'thermoReceiptStorage_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 88 'analysisResponsible' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 89 'analysisResponsible_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 90 'analyzerFat' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 91 'analyzerFat_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 92 'laboratoryFat' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 93 'laboratoryFat_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 94 'differenceFat' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 95 'differenceFat_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 96 'analyzerProtein' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 97 'analyzerProtein_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 98 'laboratoryProtein' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 99 'laboratoryProtein_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 100 'differenceProtein' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 101 'differenceProtein_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 102 'None' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 103 'primaryMilkMeter' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 104 'additionalMeters' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 105 'invoiceQuantityMethod' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 106 'additionalMeterQuantity' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 107 'meterDiffKg' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 108 'meterDiffKg_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 109 'conversionDensity' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 110 'conversionDensity_s' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 111 'None' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 112 'None' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 113 'None' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 114 'None' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 115 'None' type=INT
+[2026-04-30 09:00:01] ⚙ formatting col 116 'created_user' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 117 'created_date' type=DATE
+[2026-04-30 09:00:01] ✓ col 117 'created_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:00:01]   col 117 row 4 Text='29.04.2026 13:25'
+[2026-04-30 09:00:01] ⚙ formatting col 118 'last_edited_user' type=TEXT
+[2026-04-30 09:00:01] ⚙ formatting col 119 'last_edited_date' type=DATE
+[2026-04-30 09:00:01] ✓ col 119 'last_edited_date' fmt='ДД.ММ.ГГГГ чч:мм'
+[2026-04-30 09:00:01]   col 119 row 4 Text='29.04.2026 18:21'
+[2026-04-30 09:00:01] ⚙ formatting col 120 'OBJECTID' type=OID
