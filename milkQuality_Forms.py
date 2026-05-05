@@ -971,9 +971,9 @@ def push_sheet(wb, sheet_name: str, fields, url: str):
         except Exception as ex:
             log(f"dirty debug read failed: {ex}")
 
-        # FIX: строим col_to_name по позиции в fields, чтобы корректно маппить
-        # поля с одинаковым alias (например, все "Оценка, балл" в Форме 5).
-        # alias_to_name оставляем как fallback для F1/F2.
+        # col_to_name: маппинг позиции в fields (1-based) -> field_name.
+        # Это единственно верный способ для F5, где alias дублируются ("Оценка, балл").
+        # alias_to_name оставляем как fallback для F1/F2 где alias уникальны.
         alias_to_name = {}
         name_to_type = {}
         col_to_name = {}  # col_index (1-based) -> field_name
@@ -985,6 +985,11 @@ def push_sheet(wb, sheet_name: str, fields, url: str):
                 col_to_name[i] = n
             if n and al:
                 alias_to_name[al] = n
+
+        # Диагностика маппинга col_to_name для F5
+        if sheet_name == SHEET_F5:
+            sample = {c: n for c, n in col_to_name.items() if c <= 12}
+            log(f"F5 col_to_name sample (cols 1-12): {sample}")
 
         token = get_token()
         oid_field = _get_layer_oid_field(url, token) if oid_col else None
@@ -1033,7 +1038,7 @@ def push_sheet(wb, sheet_name: str, fields, url: str):
                 if alias in ("OBJECTID", "GlobalID") or alias == oid_field:
                     continue
 
-                # FIX: col_to_name — точный маппинг по позиции (для F5 с дублирующимися alias).
+                # col_to_name — точный маппинг по позиции (для F5 с дублирующимися alias).
                 # Fallback на alias_to_name для F1/F2 где alias уникальны.
                 name = col_to_name.get(c) or alias_to_name.get(alias)
                 if not name or name.lower() in SYS_SKIP:
@@ -1067,6 +1072,11 @@ def push_sheet(wb, sheet_name: str, fields, url: str):
                     attrs[name] = dt_to_esri(v)
                 else:
                     attrs[name] = v
+
+            # --- ДИАГНОСТИКА: логируем attrs первой dirty-строки ---
+            if not edits:
+                log(f"F5 push FIRST dirty row {r_idx}: oid_field={oid_field} oid_val={oid_val} attrs_keys={list(attrs.keys())}")
+                log(f"F5 push FIRST dirty attrs (sample 10): { {k: v for k, v in list(attrs.items())[:10]} }")
 
             edits.append({"attributes": attrs, "row": r_idx})
 
@@ -1106,6 +1116,8 @@ def push_sheet(wb, sheet_name: str, fields, url: str):
             op_name = "updateFeatures"
 
         js = res.json()
+        log(f"{op_name} raw response for {sheet_name}: {json.dumps(js)[:500]}")
+
         if "error" in js:
             log(f"{op_name} error for {sheet_name}: {js['error']}")
             return
